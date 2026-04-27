@@ -1,0 +1,7 @@
+# Set image resolution
+int32 width
+int32 height
+bool transfer_only       # true=affects only network transfer, false=affects local+getBeData
+---
+bool success
+string message

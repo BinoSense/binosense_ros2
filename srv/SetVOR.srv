@@ -1,0 +1,6 @@
+# Set VOR (Vestibulo-Ocular Reflex) on/off
+bool vor_eye
+bool vor_neck
+---
+bool success
+string message

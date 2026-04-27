@@ -1,0 +1,7 @@
+# Set camera white balance temperature
+int8 camera             # -1=all, 0=right, 1=left
+bool auto_white_balance
+float32 temperature     # Only used when auto_white_balance=false
+---
+bool success
+string message

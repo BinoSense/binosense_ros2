@@ -1,0 +1,6 @@
+# Set motor absolute speed
+bool[6] active_flag     # Which motors to activate
+float32[6] speeds       # Speed values in deg/s
+---
+bool success
+string message

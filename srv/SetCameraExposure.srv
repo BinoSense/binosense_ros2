@@ -1,0 +1,7 @@
+# Set camera exposure
+int8 camera             # -1=all, 0=right, 1=left
+bool auto_exposure
+float32 exposure_time   # Only used when auto_exposure=false
+---
+bool success
+string message

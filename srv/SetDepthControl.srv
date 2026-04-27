@@ -1,0 +1,9 @@
+# Set depth control parameters
+bool enabled
+bool sv_enabled
+int32 precision          # 1000=mm, 100=cm, 10=dm, 1=m
+float32 distance_min
+float32 distance_max
+---
+bool success
+string message

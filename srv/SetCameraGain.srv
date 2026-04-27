@@ -1,0 +1,7 @@
+# Set camera gain
+int8 camera             # -1=all, 0=right, 1=left
+bool auto_gain
+int32 gain              # Only used when auto_gain=false
+---
+bool success
+string message

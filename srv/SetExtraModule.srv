@@ -1,0 +1,8 @@
+# Control extra module (wiper, zoom camera, laser, infrared lamp, mouth, lighting, arm)
+uint8 module_type        # 0=laser_ranging, 1=infrared_lamp, 2=zoom_camera, 3=wiper, 4=mouth, 5=lighting, 6=arm
+int32 param0
+int32 param1
+int32 param2
+---
+bool success
+string message

@@ -1,0 +1,7 @@
+# Save/snap/record device data
+uint8 action             # 0=save_start, 1=save_stop, 2=snap, 3=record, 4=stop_record
+string folder_path       # Save path
+string description       # Description for snap/record
+---
+bool success
+string message

@@ -1,0 +1,8 @@
+# Set motor absolute or relative position
+float32[6] angles       # 6 motor angles: R_Pitch, R_Roll, R_Yaw, L_Pitch, L_Roll, L_Yaw
+bool absolute           # true=absolute, false=relative
+uint8 move_pattern      # 0=saccade(fast), 1=smooth_pursuit
+uint8 move_base         # 0=independent, 1=left_eye_base, 2=right_eye_base
+---
+bool success
+string message

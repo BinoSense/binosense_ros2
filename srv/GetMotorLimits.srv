@@ -1,0 +1,6 @@
+# Get motor up/down limits
+uint8 motor_type         # 0-5 for individual eye motors, 6=all, or neck: 100=neck_pitch, 101=neck_roll, 102=neck_yaw, 103=neck_all
+---
+bool success
+float32 up_limit
+float32 down_limit

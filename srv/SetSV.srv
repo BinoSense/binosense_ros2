@@ -1,0 +1,5 @@
+# Set SV (Stereo Vision) on/off
+bool onoff
+---
+bool success
+string message

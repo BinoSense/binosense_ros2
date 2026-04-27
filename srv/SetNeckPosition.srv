@@ -1,0 +1,7 @@
+# Set neck motor position (if neck exists)
+float32[3] angles        # Neck pitch, roll, yaw
+bool absolute            # true=absolute, false=relative
+uint8 move_pattern       # 0=saccade(fast), 1=smooth_pursuit
+---
+bool success
+string message
